@@ -26,13 +26,13 @@ class ScalpStrat(IStrategy):
     # Minimal ROI designed for the strategy.
     # This attribute will be overridden if the config file contains "minimal_roi"
     minimal_roi = {
-        "0": 0.01
+        "0": 0.02
     }
     # Optimal stoploss designed for the strategy
     # This attribute will be overridden if the config file contains "stoploss"
     # should not be below 3% loss
 
-    stoploss = -0.15
+    stoploss = -0.1
     # Optimal timeframe for the strategy
     # the shorter the better
     timeframe = '15m'
